@@ -53,7 +53,7 @@ Open a terminal an navigate to the working directory, where your Dockerfile and 
 Run "docker run --rm user/pythoncontainer:latest". Docker will buld a container from the Docker image we just created. --rm will remove the container automatically after the python job is done.
 After a short time you will see the output inside the terminal.
 
-Congrats! You can your first application inside a container!
+Congrats! You ran your first application inside a container!
 
 # Wanna take a look inside?
 If you want to take a look how the container looks inside, run "docker run --rm -it user/pythoncontainer:latest /bin/bash" in your terminal. "-it" will start the container in an interactive mode, /bin/bash navigates you directly into the containers bash shell, inside the working directory. Now run "python3 fakeNewsDetect.py" to run the application. Leave the directory with "cd /" and type "ls" to see the directories inside the root directory.
