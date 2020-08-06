@@ -9,7 +9,7 @@ Open a terminal and type "docker run hello-world".
 When you see "Hello World from Docker!" in your terminal, the installation was successfull.
 
 # Pull the code
-Pull the code from this repository inside a working directory on your PC. It should then have 4 files in your working directory: fakeNewsDetect.py, requirements.txt, news.csv, Dockerfile.
+Pull the code from this repository inside a working directory on your PC. It should then have 5 files in your working directory: fakeNewsDetect.py, requirements.txt, news.csv, Dockerfile and REAMDME.md.
 
 I got the python application and data from here: https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/ 
 
